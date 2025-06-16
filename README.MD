@@ -1,41 +1,29 @@
 # 🐦 Introduction to Flutter
+Hello, I'm **Phakaphol Dherachaisuphakij (Pk)**  
+A passionate **QA Specialist** and **Frontend Developer**  
+Currently at **SCB TechX**, building robust testing pipelines  
+Skilled in **React**, **Next.js**, and **Cypress**
 
-Flutter is an open-source UI software development toolkit created by Google, used to develop cross-platform applications from a single codebase.
+This is my personal note on getting started with **Flutter**, a modern UI toolkit by Google that allows building natively compiled apps from a single codebase.
 
 ---
 
 ## 🔧 What is Flutter?
 
-- **Flutter** is a **framework** for building natively compiled apps for:
-  - Android
-  - iOS
-  - Web
-  - Desktop (Windows, macOS, Linux)
-- Written in **Dart language**
-- Uses its own high-performance **rendering engine**
+Flutter is an **open-source UI framework** developed by Google for building cross-platform apps — Android, iOS, Web, and even Desktop — using a single codebase written in **Dart**.
 
 ---
 
-## 🚀 Why Use Flutter?
+## 🚀 Why I’m Exploring Flutter
 
-- Fast development with **hot reload**
-- Beautiful and customizable UI widgets
-- Single codebase for multiple platforms
-- Strong community and Google support
-
----
-
-## 🧱 Core Concepts
-
-### 🗂️ Widgets
-- Everything in Flutter is a **Widget**
-- Types:
-  - **StatelessWidget**: UI that doesn’t change
-  - **StatefulWidget**: UI that changes over time
-
-### 🎯 Dart Language
-- Object-oriented
-- Used to write all Flutter code
-- Compiled ahead-of-time (AOT) for native performance
+As a frontend dev, I’m always excited by frameworks that:
+- Allow **rapid development** (hot reload ❤️)
+- Provide **beautiful UI out of the box**
+- Work across multiple platforms
+- Have a **strong developer community**
 
 ---
+
+## 🎯 Dart: The Language Behind Flutter
+
+Flutter apps are written in **Dart**, a language that feels like a blend of JavaScript and Java.
