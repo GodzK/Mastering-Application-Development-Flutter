@@ -1,2 +1,55 @@
 building.pdf
 cheatsheet.pdf
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.pub-cache/
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+
+# Android related
+android/.gradle/
+android/app/build/
+*.iml
+.gradle
+local.properties
+
+# iOS related
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.lock
+DerivedData/
+.xcresult/
+
+# VS Code
+.vscode/
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+!*.xcodeproj/project.xcworkspace/
+
+# IntelliJ / Android Studio
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# macOS
+.DS_Store
+
+# Others
+*.log
+*.tmp
+*.swp

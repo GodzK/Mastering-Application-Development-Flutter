@@ -25,3 +25,16 @@
 2. IDE = Android Studio / VS Code(Microsoft) / Dartpad / Flutter Plugin
 
 C:\Users\pk\Downloads\flutter_windows_3.32.4-stable\flutter\bin\cache\dart-sdk
+
+เวลาเรากด run มันจะเป็นการassembleDebugคือจะbuildเป็น apk เพื่อไปติดตั้งที่มือถือ
+
+## Widget
+ทุกองค์ประกอบคือ Widget
+
+## State
+# implicit State
+มี Stateเป็นของตัวเอง
+# Mutable State
+สามารถเปลี่ยนเเปลง Stateได้ผ่าน setState
+# Support Caching
+้ถ้า State ไม่เปลี่ยน = ไม่ Rebuild
