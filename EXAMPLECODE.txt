@@ -1,0 +1,84 @@
+ศึกษา Code Example ในเรื่อง Inherited Widgets ได้จาก Code Snippet ข้างล่างนี้เลยครับ:
+
+
+
+class ColorProvider extends InheritedWidget {
+
+ const ColorProvider({
+
+   Key? key,
+
+   required Widget child,
+
+ }) : super(key: key, child: child);
+
+
+ final Color color = Colors.blue;
+
+
+
+
+ static ColorProvider of(BuildContext context) {
+
+   final ColorProvider? result = context.dependOnInheritedWidgetOfExactType<ColorProvider>();
+
+   assert(result != null, 'No ColorProvider found in context');
+
+   return result!;
+
+ }
+
+
+
+
+ @override
+
+ bool updateShouldNotify(ColorProvider old) => color != old.color;
+
+}
+
+
+
+
+class MyPage extends StatelessWidget {
+
+ const MyPage({Key? key}) : super(key: key);
+
+
+
+
+ @override
+
+ Widget build(BuildContext context) {
+
+   return Scaffold(
+
+     body: ColorProvider(
+
+       child: Builder(
+
+         builder: (BuildContext innerContext) {
+
+           return Center(
+
+             child: Text(
+
+               'Hello World',
+
+               style: TextStyle(color: ColorProvider.of(innerContext).color),
+
+             ),
+
+           );
+
+         },
+
+       ),
+
+     ),
+
+   );
+
+ }
+
+}
